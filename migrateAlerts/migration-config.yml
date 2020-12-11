@@ -1,0 +1,6 @@
+---
+  admin_key: '<admin_key>' #this is the originating account admin_key (where policies/conditions currently exist)
+  new_admin_key: '<new_admin_key>' #this is the admin key for the desired account to move policies/conditions to
+  new_graph_key: '<new_graph_key>' #Only required for migration of synthetic conditions - graphql key for target account
+  new_account_id: '<new_account_id>' #Only required for migration of synthetic conditions - account id for target account
+  policyNames: ['Pol1', 'Pol2', 'Pol3'] #this is a list of existing policies that will be moved to desired account
