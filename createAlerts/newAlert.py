@@ -16,10 +16,10 @@ inc_pref = "" #default
 headerz = {}
 pol_name = ""
 app_names = "" #list should match your app_names in your newrelic agent configs
-x = 0ß
+x = 0
 
 def CreateNewPolicy(ip, pn):
-        global polIDß
+        global polID
         payload1 = {
             "policy": {
                 "incident_preference": ip,
